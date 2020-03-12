@@ -1,6 +1,7 @@
 # Additional
 *.txt
 carriers.py
+test.py
 .vscode/
 
 
