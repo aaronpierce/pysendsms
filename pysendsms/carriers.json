@@ -1,602 +1,190 @@
 {
-    "3 River Wireless": {
-        "0": "@sms.3rivers.net"
-    },
-    "ACS Wireless": {
-        "0": "@paging.acswireless.com"
-    },
-    "Advantage Communications": {
-        "0": "@advantagepaging.com"
-    },
-    "Airtouch Pagers": {
-        "0": "@myairmail.com",
-        "1": "@alphapage.airtouch.com",
-        "2": "@airtouch.net",
-        "3": "@airtouchpaging.com"
-    },
-    "AlphNow": {
-        "0": "@alphanow.net"
-    },
-    "Alltel": {
-        "0": "@alltelmessage.com"
-    },
-    "Alltel PCS": {
-        "0": "@message.alltel.com"
-    },
-    "Ameritech Paging": {
-        "0": "@paging.acswireless.com",
-        "1": "@pageapi.com"
-    },
-    "Ameritech Clearpath": {
-        "0": "@clearpath.acswireless.com"
-    },
-    "Andhra Pradesh Airtel": {
-        "0": "@airtelap.com"
-    },
-    "Arch Pagers (PageNet)": {
-        "0": "@archwireless.net",
-        "1": "@epage.arch.com",
-        "2": "@archwireless.net"
-    },
-    "AT&T": {
-        "0": "@mms.att.net",
-        "1": "@txt.att.net"
-    },
-    "AT&T Pocketnet PCS": {
-        "0": "@dpcs.mobile.att.net"
-    },
-    "Beepwear": {
-        "0": "@beepwear.net"
-    },
-    "BeeLine GSM": {
-        "0": "@sms.beemail.ru"
-    },
-    "Bell Atlantic": {
-        "0": "@message.bam.com"
-    },
-    "Bell Canada": {
-        "0": "@txt.bellmobility.ca",
-        "1": "@bellmobility.ca"
-    },
-    "Bell Mobility": {
-        "0": "@txt.bellmobility.ca"
-    },
-    "Bell South (Blackberry)": {
-        "0": "@bellsouthtips.com"
-    },
-    "Bell South": {
-        "0": "@sms.bellsouth.com",
-        "1": "@wireless.bellsouth.com",
-        "2": "@blsdcs.net",
-        "3": "@bellsouth.cl"
-    },
-    "Bell South Mobility": {
-        "0": "@blsdcs.net"
-    },
-    "Blue Sky Frog": {
-        "0": "@blueskyfrog.com"
-    },
-    "Bluegrass Cellular": {
-        "0": "@sms.bluecell.com"
-    },
-    "Boost": {
-        "0": "@myboostmobile.com"
-    },
-    "BPL mobile": {
-        "0": "@bplmobile.com"
-    },
-    "Cellular One East Coast": {
-        "0": "@phone.cellone.net"
-    },
-    "Cellular One South West": {
-        "0": "@swmsg.com"
-    },
-    "Cellular One PCS": {
-        "0": "@paging.cellone-sf.com"
-    },
-    "Cellular One": {
-        "0": "@mobile.celloneusa.com",
-        "1": "@cellularone.txtmsg.com",
-        "2": "@cellularone.textmsg.com",
-        "3": "@cell1.textmsg.com",
-        "4": "@message.cellone-sf.com",
-        "5": "@sbcemail.com"
-    },
-    "Cellular One West": {
-        "0": "@mycellone.com"
-    },
-    "Cellular South": {
-        "0": "@csouth1.com"
-    },
-    "Central Vermont Communications": {
-        "0": "@cvcpaging.com"
-    },
-    "CenturyTel": {
-        "0": "@messaging.centurytel.net"
-    },
-    "Chennai RPG Cellular": {
-        "0": "@rpgmail.net"
-    },
-    "Chennai Skycell / Airtel": {
-        "0": "@airtelchennai.com"
-    },
-    "Cincinnati Bell": {
-        "0": "@mobile.att.net"
-    },
-    "Cingular Wireless": {
-        "0": "@mycingular.textmsg.com",
-        "1": "@mobile.mycingular.com",
-        "2": "@mobile.mycingular.net"
-    },
-    "Claro Wireless": {
-        "0": "@vtexto"
-    },
-    "Clearnet": {
-        "0": "@msg.clearnet.com"
-    },
-    "Comcast": {
-        "0": "@comcastpcs.textmsg.com"
-    },
-    "Communication Specialists": {
-        "0": "@pageme.comspeco.net"
-    },
-    "Communication Specialist Companies": {
-        "0": "@pager.comspeco.com"
-    },
-    "Comviq": {
-        "0": "@sms.comviq.se"
-    },
-    "Cook Paging": {
-        "0": "@cookmail.com"
-    },
-    "Corr Wireless Communications": {
-        "0": "@corrwireless.net"
-    },
-    "Delhi Aritel": {
-        "0": "@airtelmail.com"
-    },
-    "Delhi Hutch": {
-        "0": "@delhi.hutch.co.in"
-    },
-    "Digi-Page / Page Kansas": {
-        "0": "@page.hit.net"
-    },
-    "Dobson Cellular Systems": {
-        "0": "@mobile.dobson.net"
-    },
-    "Dobson-Alex Wireless / Dobson-Cellular One": {
-        "0": "@mobile.cellularone.com"
-    },
-    "DT T-Mobile": {
-        "0": "@t-mobile-sms.de"
-    },
-    "Dutchtone / Orange-NL": {
-        "0": "@sms.orange.nl"
-    },
-    "Edge Wireless": {
-        "0": "@sms.edgewireless.com"
-    },
-    "EMT": {
-        "0": "@sms.emt.ee"
-    },
-    "Emtel": {
-        "0": "@emtelworld.net"
-    },
-    "Escotel": {
-        "0": "@escotelmobile.com"
-    },
-    "Fido": {
-        "0": "@fido.ca"
-    },
-    "Galaxy Corporation": {
-        "0": "@sendabeep.net"
-    },
-    "GCS Paging": {
-        "0": "@webpager.us"
-    },
-    "Goa BPLMobil": {
-        "0": "@bplmobile.com"
-    },
-    "Google Project Fi": {
-        "0": "@msg.fi.google.com"
-    },
-    "Golden Telecom": {
-        "0": "@sms.goldentele.com"
-    },
-    "GrayLink / Porta-Phone": {
-        "0": "@epage.porta-phone.com"
-    },
-    "GTE": {
-        "0": "@airmessage.net",
-        "1": "@gte.pagegate.net",
-        "2": "@messagealert.com"
-    },
-    "Gujarat Celforce": {
-        "0": "@celforce.com"
-    },
-    "Houston Cellular": {
-        "0": "@text.houstoncellular.net"
-    },
-    "Idea Cellular": {
-        "0": "@ideacellular.net"
-    },
-    "Infopage Systems": {
-        "0": "@page.infopagesystems.com"
-    },
-    "Inland Cellular Telephone": {
-        "0": "@inlandlink.com"
-    },
-    "JSM Tele-Page": {
-        "0": "@jsmtel.com"
-    },
-    "Kerala Escotel": {
-        "0": "@escotelmobile.com"
-    },
-    "Kolkata Airtel": {
-        "0": "@airtelkol.com"
-    },
-    "Kyivstar": {
-        "0": "@smsmail.lmt.lv"
-    },
-    "Lauttamus Communication": {
-        "0": "@e-page.net"
-    },
-    "LMT": {
-        "0": "@smsmail.lmt.lv"
-    },
-    "Maharashtra BPL Mobile": {
-        "0": "@bplmobile.com"
-    },
-    "Maharashtra Idea Cellular": {
-        "0": "@ideacellular.net"
-    },
-    "Manitoba Telecom Systems": {
-        "0": "@text.mtsmobility.com"
-    },
-    "MCI Phone": {
-        "0": "@mci.com"
-    },
-    "MCI": {
-        "0": "@pagemci.com"
-    },
-    "Meteor": {
-        "0": "@mymeteor.ie",
-        "1": "@sms.mymeteor.ie"
-    },
-    "Metrocall": {
-        "0": "@page.metrocall.com"
-    },
-    "Metrocall 2-way": {
-        "0": "@my2way.com"
-    },
-    "Metro PCS": {
-        "0": "@mymetropcs.com",
-        "1": "@metropcs.sms.us"
-    },
-    "Microcell": {
-        "0": "@fido.ca"
-    },
-    "Midwest Wireless": {
-        "0": "@clearlydigital.com"
-    },
-    "MiWorld": {
-        "0": "@m1.com.sg"
-    },
-    "Mobilecom PA": {
-        "0": "@page.mobilcom.net"
-    },
-    "Mobilecomm": {
-        "0": "@mobilecomm.net"
-    },
-    "Mobileone": {
-        "0": "@m1.com.sg"
-    },
-    "Mobilfone": {
-        "0": "@page.mobilfone.com"
-    },
-    "Mobility Bermuda": {
-        "0": "@ml.bm"
-    },
-    "Mobistar Belgium": {
-        "0": "@mobistar.be"
-    },
-    "Mobitel Tanzania": {
-        "0": "@sms.co.tz"
-    },
-    "Mobtel Srbija": {
-        "0": "@mobtel.co.yu"
-    },
-    "Morris Wireless": {
-        "0": "@beepone.net"
-    },
-    "Motient": {
-        "0": "@isp.com"
-    },
-    "Movistar": {
-        "0": "@correo.movistar.net"
-    },
-    "Mumbai BPL Mobile": {
-        "0": "@bplmobile.com"
-    },
-    "Mumbai Orange": {
-        "0": "@orangemail.co.in"
-    },
-    "NBTel": {
-        "0": "@wirefree.informe.ca"
-    },
-    "Netcom": {
-        "0": "@sms.netcom.no"
-    },
-    "Nextel": {
-        "0": "@messaging.nextel.com",
-        "1": "@page.nextel.com",
-        "2": "@nextel.com.br"
-    },
-    "NPI Wireless": {
-        "0": "@npiwireless.com"
-    },
-    "Ntelos": {
-        "0": "@pcs.ntelos.com"
-    },
-    "O2": {
-        "0": "@o2.co.uk"
-    },
-    "O2 (M-mail)": {
-        "0": "@mmail.co.uk"
-    },
-    "Omnipoint": {
-        "0": "@omnipoint.com",
-        "1": "@omnipointpcs.com"
-    },
-    "One Connect Austria": {
-        "0": "@onemail.at"
-    },
-    "OnlineBeep": {
-        "0": "@onlinebeep.net"
-    },
-    "Optus Mobile": {
-        "0": "@optusmobile.com.au"
-    },
-    "Orange": {
-        "0": "@orange.net"
-    },
-    "Orange Mumbai": {
-        "0": "@orangemail.co.in"
-    },
-    "Orange - NL / Dutchtone": {
-        "0": "@sms.orange.nl"
-    },
-    "Oskar": {
-        "0": "@mujoskar.cz"
-    },
-    "P&T Luxembourg": {
-        "0": "@sms.luxgsm.lu"
-    },
-    "Pacific Bell": {
-        "0": "@pacbellpcs.net"
-    },
-    "PageMart": {
-        "0": "@pagemart.net"
-    },
-    "PageMart Advanced": {
-        "0": "@airmessage.net"
-    },
-    "PageMart Canada": {
-        "0": "@pmcl.net"
-    },
-    "PageNet Canada": {
-        "0": "@pagegate.pagenet.ca"
-    },
-    "PageOne NorthWest": {
-        "0": "@page1nw.com"
-    },
-    "PCS One": {
-        "0": "@pcsone.net"
-    },
-    "Personal Communication": {
-        "0": "@pcom.ru"
-    },
-    "Pioneer / Enid Cellular": {
-        "0": "@msg.pioneerenidcellular.com"
-    },
-    "PlusGSM": {
-        "0": "@text.plusgsm.pl"
-    },
-    "Pondicherry BPL Mobile": {
-        "0": "@bplmobile.com"
-    },
-    "Powertel": {
-        "0": "@voicestream.net"
-    },
-    "Price Communications": {
-        "0": "@mobilecell1se.com"
-    },
-    "Primco": {
-        "0": "@textmsg.com"
-    },
-    "Primtel": {
-        "0": "@sms.primtel.ru"
-    },
-    "ProPage": {
-        "0": "@page.propage.net"
-    },
-    "Public Service Cellular": {
-        "0": "@sms.pscel.com"
-    },
-    "Qualcomm": {
-        "0": "@pager.qualcomm.com"
-    },
-    "Qwest": {
-        "0": "@qwestmp.com"
-    },
-    "RAM Page": {
-        "0": "@ram-page.com"
-    },
-    "Rogers": {
-        "0": "@pcs.rogers.com",
-        "1": "@sms.rogers.com"
-    },
-    "Safaricom": {
-        "0": "@safaricomsms.com"
-    },
-    "Satelindo GSM": {
-        "0": "@satelindogsm.com"
-    },
-    "Satellink": {
-        "0": "@satellink.net"
-    },
-    "SBC Ameritech Paging": {
-        "0": "@paging.acswireless.com"
-    },
-    "SCS-900": {
-        "0": "@scs-900.ru"
-    },
-    "SFR France": {
-        "0": "@sfr.fr"
-    },
-    "Skytel Pagers": {
-        "0": "@skytel.com",
-        "1": "@email.skytel.com"
-    },
-    "Simple Freedom": {
-        "0": "@text.simplefreedom.net"
-    },
-    "Smart Telecom": {
-        "0": "@mysmart.mymobile.ph"
-    },
-    "Southern LINC": {
-        "0": "@page.southernlinc.com"
-    },
-    "Southwestern Bell": {
-        "0": "@email.swbw.com"
-    },
-    "Sprint": {
-        "0": "@sprintpaging.com"
-    },
-    "Sprint PCS": {
-        "0": "@messaging.sprintpcs.com"
-    },
-    "ST Paging": {
-        "0": "@page.stpaging.com"
-    },
-    "SunCom": {
-        "0": "@tms.suncom.com",
-        "1": "@suncom1.com"
-    },
-    "Sunrise Mobile": {
-        "0": "@mysunrise.ch",
-        "1": "@freesurf.ch"
-    },
-    "Surewest Communications": {
-        "0": "@mobile.surewest.com"
-    },
-    "Swisscom": {
-        "0": "@bluewin.ch"
-    },
-    "The Indiana Paging Co": {
-        "0": "@pager.tdspager.com"
-    },
-    "T-Mobile": {
-        "0": "@tmomail.net",
-        "1": "@voicestream.net"
-    },
-    "T-Mobile Austria": {
-        "0": "@sms.t-mobile.at"
-    },
-    "T-Mobile Germany": {
-        "0": "@t-d1-sms.de"
-    },
-    "T-Mobile UK": {
-        "0": "@t-mobile.uk.net"
-    },
-    "Tamil Nadu BPL Mobile": {
-        "0": "@bplmobile.com"
-    },
-    "Tele2 Latvia": {
-        "0": "@sms.tele2.lv"
-    },
-    "Telefonica Movistar": {
-        "0": "@movistar.net"
-    },
-    "Telenor": {
-        "0": "@mobilpost.no"
-    },
-    "Teletouch": {
-        "0": "@pageme.teletouch.com"
-    },
-    "Telia Denmark": {
-        "0": "@gsm1800.telia.dk"
-    },
-    "Telus": {
-        "0": "@msg.telus.com"
-    },
-    "TIM": {
-        "0": "@timnet.com"
-    },
-    "Triton": {
-        "0": "@tms.suncom.com"
-    },
-    "TSR Wireless": {
-        "0": "@alphame.com",
-        "1": "@beep.com"
-    },
-    "UMC": {
-        "0": "@sms.umc.com.ua"
-    },
-    "Unicel": {
-        "0": "@utext.com"
-    },
-    "Uraltel": {
-        "0": "@sms.uraltel.ru"
-    },
-    "US Cellular": {
-        "0": "@uscc.textmsg.com"
-    },
-    "US West": {
-        "0": "@uswestdatamail.com"
-    },
-    "Uttar Pradesh Escotel": {
-        "0": "@escotelmobile.com"
-    },
-    "Verizon Pagers": {
-        "0": "@myairmail.com"
-    },
-    "Verizon PCS": {
-        "0": "@vtext.com",
-        "1": "@myvzw.com"
-    },
-    "Vessotel": {
-        "0": "@pager.irkutsk.ru"
-    },
-    "Virgin Mobile": {
-        "0": "@vmobl.com",
-        "1": "@vxtras.com"
-    },
-    "Vodafone Italy": {
-        "0": "@sms.vodafone.it"
-    },
-    "Vodafone Japan": {
-        "0": "@c.vodafone.ne.jp",
-        "1": "@h.vodafone.ne.jp",
-        "2": "@t.vodafone.ne.jp"
-    },
-    "Vodafone Spain": {
-        "0": "@vodafone.es"
-    },
-    "VoiceStream / T-Mobile": {
-        "0": "@voicestream.net"
-    },
-    "WebLink Wiereless": {
-        "0": "@airmessage.net",
-        "1": "@pagemart.net"
-    },
-    "West Central Wireless": {
-        "0": "@sms.wcc.net"
-    },
-    "Western Wireless": {
-        "0": "@cellularonewest.com"
-    },
-    "Wyndtell": {
-        "0": "@wyndtell.com"
-    }
+    "3 River Wireless": "@sms.3rivers.net",
+    "ACS Wireless": "@paging.acswireless.com",
+    "Advantage Communications": "@advantagepaging.com",
+    "Airtouch Pagers": "@myairmail.com",
+    "AlphNow": "@alphanow.net",
+    "Alltel": "@alltelmessage.com",
+    "Alltel PCS": "@message.alltel.com",
+    "Ameritech Paging": "@paging.acswireless.com",
+    "Ameritech Clearpath": "@clearpath.acswireless.com",
+    "Andhra Pradesh Airtel": "@airtelap.com",
+    "Arch Pagers (PageNet)": "@archwireless.net",
+    "AT&T": "@mms.att.net",
+    "AT&T Pocketnet PCS": "@dpcs.mobile.att.net",
+    "Beepwear": "@beepwear.net",
+    "BeeLine GSM": "@sms.beemail.ru",
+    "Bell Atlantic": "@message.bam.com",
+    "Bell Canada": "@txt.bellmobility.ca",
+    "Bell Mobility": "@txt.bellmobility.ca",
+    "Bell South (Blackberry)": "@bellsouthtips.com",
+    "Bell South": "@sms.bellsouth.com",
+    "Bell South Mobility": "@blsdcs.net",
+    "Blue Sky Frog": "@blueskyfrog.com",
+    "Bluegrass Cellular": "@sms.bluecell.com",
+    "Boost": "@myboostmobile.com",
+    "BPL mobile": "@bplmobile.com",
+    "Cellular One East Coast": "@phone.cellone.net",
+    "Cellular One South West": "@swmsg.com",
+    "Cellular One PCS": "@paging.cellone-sf.com",
+    "Cellular One": "@mobile.celloneusa.com",
+    "Cellular One West": "@mycellone.com",
+    "Cellular South": "@csouth1.com",
+    "Central Vermont Communications": "@cvcpaging.com",
+    "CenturyTel": "@messaging.centurytel.net",
+    "Chennai RPG Cellular": "@rpgmail.net",
+    "Chennai Skycell / Airtel": "@airtelchennai.com",
+    "Cincinnati Bell": "@mobile.att.net",
+    "Cingular Wireless": "@mycingular.textmsg.com",
+    "Claro Wireless": "@vtexto",
+    "Clearnet": "@msg.clearnet.com",
+    "Comcast": "@comcastpcs.textmsg.com",
+    "Communication Specialists": "@pageme.comspeco.net",
+    "Communication Specialist Companies": "@pager.comspeco.com",
+    "Comviq": "@sms.comviq.se",
+    "Cook Paging": "@cookmail.com",
+    "Corr Wireless Communications": "@corrwireless.net",
+    "Delhi Aritel": "@airtelmail.com",
+    "Delhi Hutch": "@delhi.hutch.co.in",
+    "Digi-Page / Page Kansas": "@page.hit.net",
+    "Dobson Cellular Systems": "@mobile.dobson.net",
+    "Dobson-Alex Wireless / Dobson-Cellular One": "@mobile.cellularone.com",
+    "DT T-Mobile": "@t-mobile-sms.de",
+    "Dutchtone / Orange-NL": "@sms.orange.nl",
+    "Edge Wireless": "@sms.edgewireless.com",
+    "EMT": "@sms.emt.ee",
+    "Emtel": "@emtelworld.net",
+    "Escotel": "@escotelmobile.com",
+    "Fido": "@fido.ca",
+    "Galaxy Corporation": "@sendabeep.net",
+    "GCS Paging": "@webpager.us",
+    "Goa BPLMobil": "@bplmobile.com",
+    "Google Project Fi": "@msg.fi.google.com",
+    "Golden Telecom": "@sms.goldentele.com",
+    "GrayLink / Porta-Phone": "@epage.porta-phone.com",
+    "GTE": "@airmessage.net",
+    "Gujarat Celforce": "@celforce.com",
+    "Houston Cellular": "@text.houstoncellular.net",
+    "Idea Cellular": "@ideacellular.net",
+    "Infopage Systems": "@page.infopagesystems.com",
+    "Inland Cellular Telephone": "@inlandlink.com",
+    "JSM Tele-Page": "@jsmtel.com",
+    "Kerala Escotel": "@escotelmobile.com",
+    "Kolkata Airtel": "@airtelkol.com",
+    "Kyivstar": "@smsmail.lmt.lv",
+    "Lauttamus Communication": "@e-page.net",
+    "LMT": "@smsmail.lmt.lv",
+    "Maharashtra BPL Mobile": "@bplmobile.com",
+    "Maharashtra Idea Cellular": "@ideacellular.net",
+    "Manitoba Telecom Systems": "@text.mtsmobility.com",
+    "MCI Phone": "@mci.com",
+    "MCI": "@pagemci.com",
+    "Meteor": "@mymeteor.ie",
+    "Metrocall": "@page.metrocall.com",
+    "Metrocall 2-way": "@my2way.com",
+    "Metro PCS": "@mymetropcs.com",
+    "Microcell": "@fido.ca",
+    "Midwest Wireless": "@clearlydigital.com",
+    "MiWorld": "@m1.com.sg",
+    "Mobilecom PA": "@page.mobilcom.net",
+    "Mobilecomm": "@mobilecomm.net",
+    "Mobileone": "@m1.com.sg",
+    "Mobilfone": "@page.mobilfone.com",
+    "Mobility Bermuda": "@ml.bm",
+    "Mobistar Belgium": "@mobistar.be",
+    "Mobitel Tanzania": "@sms.co.tz",
+    "Mobtel Srbija": "@mobtel.co.yu",
+    "Morris Wireless": "@beepone.net",
+    "Motient": "@isp.com",
+    "Movistar": "@correo.movistar.net",
+    "Mumbai BPL Mobile": "@bplmobile.com",
+    "Mumbai Orange": "@orangemail.co.in",
+    "NBTel": "@wirefree.informe.ca",
+    "Netcom": "@sms.netcom.no",
+    "Nextel": "@messaging.nextel.com",
+    "NPI Wireless": "@npiwireless.com",
+    "Ntelos": "@pcs.ntelos.com",
+    "O2": "@o2.co.uk",
+    "O2 (M-mail)": "@mmail.co.uk",
+    "Omnipoint": "@omnipoint.com",
+    "One Connect Austria": "@onemail.at",
+    "OnlineBeep": "@onlinebeep.net",
+    "Optus Mobile": "@optusmobile.com.au",
+    "Orange": "@orange.net",
+    "Orange Mumbai": "@orangemail.co.in",
+    "Orange - NL / Dutchtone": "@sms.orange.nl",
+    "Oskar": "@mujoskar.cz",
+    "P&T Luxembourg": "@sms.luxgsm.lu",
+    "Pacific Bell": "@pacbellpcs.net",
+    "PageMart": "@pagemart.net",
+    "PageMart Advanced": "@airmessage.net",
+    "PageMart Canada": "@pmcl.net",
+    "PageNet Canada": "@pagegate.pagenet.ca",
+    "PageOne NorthWest": "@page1nw.com",
+    "PCS One": "@pcsone.net",
+    "Personal Communication": "@pcom.ru",
+    "Pioneer / Enid Cellular": "@msg.pioneerenidcellular.com",
+    "PlusGSM": "@text.plusgsm.pl",
+    "Pondicherry BPL Mobile": "@bplmobile.com",
+    "Powertel": "@voicestream.net",
+    "Price Communications": "@mobilecell1se.com",
+    "Primco": "@textmsg.com",
+    "Primtel": "@sms.primtel.ru",
+    "ProPage": "@page.propage.net",
+    "Public Service Cellular": "@sms.pscel.com",
+    "Qualcomm": "@pager.qualcomm.com",
+    "Qwest": "@qwestmp.com",
+    "RAM Page": "@ram-page.com",
+    "Rogers": "@pcs.rogers.com",
+    "Safaricom": "@safaricomsms.com",
+    "Satelindo GSM": "@satelindogsm.com",
+    "Satellink": "@satellink.net",
+    "SBC Ameritech Paging": "@paging.acswireless.com",
+    "SCS-900": "@scs-900.ru",
+    "SFR France": "@sfr.fr",
+    "Skytel Pagers": "@skytel.com",
+    "Simple Freedom": "@text.simplefreedom.net",
+    "Smart Telecom": "@mysmart.mymobile.ph",
+    "Southern LINC": "@page.southernlinc.com",
+    "Southwestern Bell": "@email.swbw.com",
+    "Sprint": "@sprintpaging.com",
+    "Sprint PCS": "@messaging.sprintpcs.com",
+    "ST Paging": "@page.stpaging.com",
+    "SunCom": "@tms.suncom.com",
+    "Sunrise Mobile": "@mysunrise.ch",
+    "Surewest Communications": "@mobile.surewest.com",
+    "Swisscom": "@bluewin.ch",
+    "The Indiana Paging Co": "@pager.tdspager.com",
+    "T-Mobile": "@tmomail.net",
+    "T-Mobile Austria": "@sms.t-mobile.at",
+    "T-Mobile Germany": "@t-d1-sms.de",
+    "T-Mobile UK": "@t-mobile.uk.net",
+    "Tamil Nadu BPL Mobile": "@bplmobile.com",
+    "Tele2 Latvia": "@sms.tele2.lv",
+    "Telefonica Movistar": "@movistar.net",
+    "Telenor": "@mobilpost.no",
+    "Teletouch": "@pageme.teletouch.com",
+    "Telia Denmark": "@gsm1800.telia.dk",
+    "Telus": "@msg.telus.com",
+    "TIM": "@timnet.com",
+    "Triton": "@tms.suncom.com",
+    "TSR Wireless": "@alphame.com",
+    "UMC": "@sms.umc.com.ua",
+    "Unicel": "@utext.com",
+    "Uraltel": "@sms.uraltel.ru",
+    "US Cellular": "@uscc.textmsg.com",
+    "US West": "@uswestdatamail.com",
+    "Uttar Pradesh Escotel": "@escotelmobile.com",
+    "Verizon Pagers": "@myairmail.com",
+    "Verizon PCS": "@vtext.com",
+    "Vessotel": "@pager.irkutsk.ru",
+    "Virgin Mobile": "@vmobl.com",
+    "Vodafone Italy": "@sms.vodafone.it",
+    "Vodafone Japan": "@c.vodafone.ne.jp",
+    "Vodafone Spain": "@vodafone.es",
+    "VoiceStream / T-Mobile": "@voicestream.net",
+    "WebLink Wiereless": "@airmessage.net",
+    "West Central Wireless": "@sms.wcc.net",
+    "Western Wireless": "@cellularonewest.com",
+    "Wyndtell": "@wyndtell.com"
 }

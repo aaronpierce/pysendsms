@@ -38,7 +38,7 @@ Create an Contact object using the persons phone number and select a carrier fro
 CARRIERS is a json file in the project that can be checked for available carriers that can be used for messaging.
 
 ```python
-contact = pysendsms.Contact('1-276-854-3723', pysendsms.CARRIERS['Bluegrass Cellular']["0"])
+contact = pysendsms.Contact('311-555-2368', pysendsms.CARRIERS['AT&T'])
 ```
 
   
