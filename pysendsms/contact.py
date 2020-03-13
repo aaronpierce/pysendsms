@@ -2,7 +2,7 @@
 
 from json import load
 
-CARRIERS = load(open('pysendsms\carriers.json'))
+CARRIERS = load(open('.\carriers.json'))
 
 class Contact:
 	def __init__(self, number, carrier):
