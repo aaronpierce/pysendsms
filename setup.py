@@ -1,23 +1,25 @@
 from setuptools import setup
 
 
-def readme():
-    with open('README.rst') as f:
-        return f.read()
+readme = open('README.md').read()
 
 
-setup(name='pysendsms',
-      version='0.1',
-      description='Send SMS via Gmail SMTP servers.',
-      long_description=readme(),
+setup(name=                                 'pysendsms',
+      version=                              '0.1',
+      description=                          'Send SMS via Gmail SMTP servers.',
+      long_description=                      readme,
+      long_description_content_type=        'text/markdown',
       classifiers=[
-        'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3.8',
+                                            'License :: OSI Approved :: MIT License',
+                                            'Intended Audience :: Developers',
+                                            'Programming Language :: Python'
+                                            'Programming Language :: Python :: 3',        
+                                            'Topic :: Software Development :: Libraries :: Python Modules',
       ],
-      keywords='sms python gmail mail mms text message',
-      url='http://github.com/aaronpierce/pysendsms',
-      author='Aaron Pierce',
-      author_email='aaronpierce15@gmail.com',
-      license='MIT',
-      include_package_data=True,
-      zip_safe=False)
+      keywords=                             'sms python gmail mail mms text message',
+      url=                                  'http://github.com/aaronpierce/pysendsms',
+      author=                               'Aaron Pierce',
+      author_email=                         'aaronpierce15@gmail.com',
+      license=                              'MIT',
+      include_package_data=                 True,
+      python_requires=                      '>=3')
