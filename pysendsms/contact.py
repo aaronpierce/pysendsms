@@ -7,7 +7,7 @@ CARRIERS = loads(data.load_file())
 
 class Contact:
 	def __init__(self, number, carrier):
-		self.number = number
+		self.number = number.replace('-', '') if '-' in number else number
 		self.carrier = carrier
 
 	def __repr__(self):
