@@ -1,8 +1,9 @@
 # contact.py
 
-from json import load
+from json import loads
+from . import data
 
-CARRIERS = load(open('.\carriers.json'))
+CARRIERS = loads(data.load_file())
 
 class Contact:
 	def __init__(self, number, carrier):
