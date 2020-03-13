@@ -7,3 +7,6 @@ test.py
 .vscode/
 env/
 *pycache*/
+*info/
+dist/
+build/

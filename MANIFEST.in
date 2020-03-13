@@ -1,2 +1,1 @@
-include README.md
-include pysendsms/carriers.json
+include pysendsms/*.json
