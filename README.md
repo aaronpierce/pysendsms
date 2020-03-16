@@ -7,7 +7,7 @@ pysendsms is a quick and simple way to use python to send SMS via Gmail SMTP ser
 
   
 
-Use the package manager [pip](https://addthislater.com) to install pysendsms.
+Use the package manager [pip](https://pypi.org/project/pysendsms) to install pysendsms.
 
   
 

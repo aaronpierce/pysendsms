@@ -4,9 +4,9 @@ import pysendsms
 
 def test_validate_phone_invalid():
     bad_numbers = [
-        '702851171',        #Shot
+        '702851171',        #Short
         '7028511711000',    #Long
-        '702^851^1711',      #Bad Special Char
+        '702^851^1711',     #Bad Special Char
         '7O2851171',        #Alphanumeric
         '+11-702-8511-711'  #Misplaced Special Char
         ]
