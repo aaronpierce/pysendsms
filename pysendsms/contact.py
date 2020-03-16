@@ -56,12 +56,16 @@ class Contact:
             number : str
                 The incoing string with '-' replaced by '' to appease formatting.
         """
+        if type(number) != str:
+            raise TypeError('You must pass the number argument as a string.')
 
         matcher = re.compile(r'^\+?\d{0,2}-?\d{3}-?\d{3}-?\d{4}$')
         if re.match(matcher, number):
             return number.replace('-', '').replace('+', '')
         else:
-            raise ValueError('Bad phone number')
+            raise ValueError("Bad phone number. - Example: '277-453-23453'")
+
+  
 
     @staticmethod
     def validate_carrier(carrier):
@@ -76,7 +80,7 @@ class Contact:
                 Key of the CARRIER dictionary accessed from carrier parameter.
         """
 
-        if (c := CARRIERS.get(carrier)):
-            return c
+        if CARRIERS.get(carrier, False):
+            return CARRIERS[carrier]
         else:
             raise KeyError('Bad Carrier input. Check pysendsms.CARRIERS for options.')

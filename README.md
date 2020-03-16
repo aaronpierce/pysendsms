@@ -23,7 +23,7 @@ pip install pysendsms
 
   
 
-Import the library and create and SMS Object utilizing your gmail account and an application password created within your Google account.
+Import the library and create an SMS Object utilizing your gmail account and an application password created within your Google account.
 
   
 
@@ -33,7 +33,7 @@ import pysendsms
 sms = pysendsms.SMS('<username>@gmail.com', '<app-password>')
 ```
 
-Create an Contact object using the persons phone number and select a carrier from the avaible options.
+Create an Contact object using the persons phone number and select a carrier from the available options.
 
 CARRIERS is a dictionary loaded from a json file in the project that can be checked for available carriers that can be used for messaging.
 
