@@ -35,10 +35,10 @@ sms = pysendsms.SMS('<username>@gmail.com', '<password>')
 
 Create an Contact object using the persons phone number and select a carrier from the avaible options.
 
-CARRIERS is a json file in the project that can be checked for available carriers that can be used for messaging.
+CARRIERS is a dictionary loaded from a json file in the project that can be checked for available carriers that can be used for messaging.
 
 ```python
-contact = pysendsms.Contact('311-555-2368', pysendsms.CARRIERS['AT&T'])
+contact = pysendsms.Contact('311-555-2368', 'AT&T')
 ```
 
   
