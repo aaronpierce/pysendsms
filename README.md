@@ -30,7 +30,7 @@ Import the library and create and SMS Object utilizing your gmail account and an
 ```python
 import pysendsms
 
-sms = pysendsms.SMS('<username>@gmail.com', '<password>')
+sms = pysendsms.SMS('<username>@gmail.com', '<app-password>')
 ```
 
 Create an Contact object using the persons phone number and select a carrier from the avaible options.
