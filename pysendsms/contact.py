@@ -9,10 +9,10 @@ CARRIERS = loads(data.load_file())
 
 class Contact:
     def __init__(self, number, carrier):
-        if not self.validate(number):
-            raise ValueError("Bad phone number")
 
-        self.carrier = carrier
+        self.number = Contact.validate_phone(number)
+        self.carrier = Contact.validate_carrier(carrier)
+
 
     def __repr__(self):
         return f'{self.number}{self.carrier}'
@@ -20,12 +20,17 @@ class Contact:
     def address(self):
         return repr(self)
 
-    def validate(self, number):
+    @staticmethod
+    def validate_phone(number):
         matcher = re.compile(r'^\+?\d{0,2}-?\d{3}-?\d{3}-?\d{4}$')
         if re.match(matcher, number):
-            self.number = number.replace('-', '').replace('+', '')
-            state = True
+            return number.replace('-', '').replace('+', '')
         else:
-            state = False
+            raise ValueError('Bad phone number')
 
-        return state
+    @staticmethod
+    def validate_carrier(carrier):
+        if (c := CARRIERS.get(carrier)):
+            return c
+        else:
+            raise KeyError('Bad Carrier input. Check pysendsms.CARRIERS for options.')
