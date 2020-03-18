@@ -11,76 +11,105 @@ class Contact:
     """ A class for storing information of a point of communication for relaying messages to.
       
     Attributes: 
+    -------------------
         number : str 
             Phone number to send information to.
         carrier : str
              Name of which carrier provides the receiving service.
     """
   
-    def __init__(self, number, carrier):
-        """ The constructor for Contact class. """
+    def __init__(self, number=None, carrier=None, fulladdress=None):
+        """ The initilizer for Contact class. """
 
-        self.number = Contact.validate_phone(number)
-        self.carrier = Contact.validate_carrier(carrier)
+        self.fulladdress = fulladdress
+        self.number = number
+        self.carrier = carrier
+        
 
+    @classmethod
+    def by_address(cls, fulladdress):
+        if '@' in fulladdress:
+            return cls(fulladdress=fulladdress)
+        else:
+            raise ValueError('Bad address given. Expected <example>@<domain>.<toplevel-domain>')
 
     def __repr__(self):
         """ The __repr__ function to retrieve identifyable information about the instanced Contact.
 
-        Returns: 
-            str(self.nubmer, self.carrier) : str
-                A concatination of both attribute strings.
+        Returns:
+        -------------------
+            f"<Contact('{self.number}', '{self.carrier}')>" : str
+                A class identifier with stored attributes shown.
         """
-
-        return f'{self.number}{self.carrier}'
-
+        if self.fulladdress is None:
+            return f"<Contact('{self.number}', '{self.carrier}')>"
+        else:
+            return f"<Contact('{self.fulladdress}')>"
+        
+    @property
     def address(self):
-        """ A function to call to retrieve the email address associated with this Contact isntance.
+        """ An attribute used retrieve the email address associated with this Contact instance.
 
-        Returns: 
-            __repr__(): str
-                A concatination of both attribute strings. str(self.nubmer, self.carrier) <phonenumber>@<email>
+        Returns:
+        -------------------
+           address : str
+                A strings representationg of an sms address. str(self.nubmer, self.carrier) <phonenumber>@<email>
         """
+        address = f'{self.number}{self.carrier}' if self.fulladdress is None else self.fulladdress
+        return address
 
-        return repr(self)
+    @property
+    def number(self):
+        """ Attribute that contains phone number for email address """
+        return self._number
 
-    @staticmethod
-    def validate_phone(number):
-        """ A function to validate number is a string of digits of 10-12 in length. 
+    @number.setter
+    def number(self, value):
+        """ Property setter to validate number is a string of digits of 10-12 in length. 
   
-        Parameters: 
-            number : str
+        Parameters:
+        -------------------
+            value : str
                 A string of digits corresponding to a phone number.
-          
-        Returns: 
-            number : str
-                The incoing string with '-' replaced by '' to appease formatting.
         """
-        if type(number) != str:
+
+        if self.fulladdress:
+            self._number = None
+            return
+        elif not value:
+            raise ValueError('Must provide number & carrier or full address.')
+        
+        if type(value) != str:
             raise TypeError('You must pass the number argument as a string.')
 
         matcher = re.compile(r'^\+?\d{0,2}-?\d{3}-?\d{3}-?\d{4}$')
-        if re.match(matcher, number):
-            return number.replace('-', '').replace('+', '')
+        if re.match(matcher, value):
+            self._number = value.replace('-', '').replace('+', '')
         else:
-            raise ValueError("Bad phone number. - Example: '277-453-23453'")
+            raise ValueError('Bad number input: Ex."277-453-2453"')
 
-  
+    @property
+    def carrier(self):
+        """ Attribute that contains domain portion of email address """
+        return self._carrier
 
-    @staticmethod
-    def validate_carrier(carrier):
-        """ A function to validate carrier is found in CARRIER dictionary.
+    @carrier.setter
+    def carrier(self, value):
+        """ Property setter to validate carrier is found in CARRIER dictionary.
   
-        Parameters: 
-            carrier : str
-                A string of digits corresponding to a phone number.
-          
-        Returns: 
-            c : str
-                Key of the CARRIER dictionary accessed from carrier parameter.
+        Parameters:
+        -------------------
+            value : str
+                A string of for carrier name corresponding to keys in CARRIER dict.
         """
 
-        if CARRIERS.get(carrier, False):
-            return CARRIERS[carrier]
+        if self.fulladdress:
+            self._carrier = None
+            return
+        elif not value:
+            raise ValueError('Must provide carrier information with number.')
+
+        if CARRIERS.get(value, False):
+            self._carrier = CARRIERS[value]
         else:
-            raise KeyError('Bad Carrier input. Check pysendsms.CARRIERS for options.')
+            raise KeyError('Bad carrier input. Check pysendsms.CARRIERS for options.')
