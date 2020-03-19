@@ -1,12 +1,13 @@
 # Additional
-*.txt
 
+package_notes.txt
+carriers.txt
 carriers.py
 playground.py
 
 .vscode/
 env/
-*pycache*/
+*cache*/
 *info/
 dist/
 build/

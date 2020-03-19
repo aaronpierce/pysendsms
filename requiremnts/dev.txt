@@ -1,0 +1,4 @@
+# Only needed for development purposes.
+# Import from commmon first.
+-r common.txt
+pytest
