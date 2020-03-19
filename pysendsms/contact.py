@@ -9,43 +9,52 @@ CARRIERS = loads(data.load_file())
 
 class Contact:
     """ A class for storing information of a point of communication for relaying messages to.
-      
-    Attributes: 
+
+    Attributes:
     -------------------
-        number : str 
+       filladdress : str
+            Email formatted string for sending messages to.
+       number : str
             Phone number to send information to.
         carrier : str
              Name of which carrier provides the receiving service.
     """
-  
+
     def __init__(self, number=None, carrier=None, fulladdress=None):
         """ The initilizer for Contact class. """
 
         self.fulladdress = fulladdress
         self.number = number
         self.carrier = carrier
-        
+
 
     @classmethod
     def by_address(cls, fulladdress):
+        """ Class method used as an alternate way to built a Contact by taking the whole address directly as string.
+
+        Attributes:
+        ----------------
+            fulladdress : str
+                Email formatted string for sending messages to.
+        """
         if '@' in fulladdress:
             return cls(fulladdress=fulladdress)
         else:
             raise ValueError('Bad address given. Expected <example>@<domain>.<toplevel-domain>')
 
     def __repr__(self):
-        """ The __repr__ function to retrieve identifyable information about the instanced Contact.
+        """ The __repr__ function to retrieve identifiable information about the instanced Contact.
 
         Returns:
         -------------------
-            f"<Contact('{self.number}', '{self.carrier}')>" : str
+            f"<Contact('<intilizer-values>')>" : str
                 A class identifier with stored attributes shown.
         """
         if self.fulladdress is None:
             return f"<Contact('{self.number}', '{self.carrier}')>"
         else:
             return f"<Contact('{self.fulladdress}')>"
-        
+
     @property
     def address(self):
         """ An attribute used retrieve the email address associated with this Contact instance.
@@ -53,7 +62,7 @@ class Contact:
         Returns:
         -------------------
            address : str
-                A strings representationg of an sms address. str(self.nubmer, self.carrier) <phonenumber>@<email>
+                A strings representationg of an sms address.(Ex. <phonenumber>@<email>)
         """
         address = f'{self.number}{self.carrier}' if self.fulladdress is None else self.fulladdress
         return address
@@ -65,8 +74,8 @@ class Contact:
 
     @number.setter
     def number(self, value):
-        """ Property setter to validate number is a string of digits of 10-12 in length. 
-  
+        """ Property setter to validate number is a string of digits of 10-12 in length and formatted properly.
+
         Parameters:
         -------------------
             value : str
@@ -78,7 +87,7 @@ class Contact:
             return
         elif not value:
             raise ValueError('Must provide number & carrier or full address.')
-        
+
         if type(value) != str:
             raise TypeError('You must pass the number argument as a string.')
 
@@ -96,7 +105,7 @@ class Contact:
     @carrier.setter
     def carrier(self, value):
         """ Property setter to validate carrier is found in CARRIER dictionary.
-  
+
         Parameters:
         -------------------
             value : str
