@@ -1,4 +1,6 @@
-# pysendsms
+<img width="200" alt="portfolio_view" src="https://github.com/aaronpierce/pysendsms/blob/master/resources/PySendSMS.png">
+
+# PySendSMS
 pysendsms is a quick and simple way to use python to send SMS via Gmail SMTP servers to known a cell carrier.
 
   
@@ -32,7 +34,7 @@ import pysendsms
 
 sms = pysendsms.SMS('<username>@gmail.com', '<app-password>')
 ```
-
+!
 Create an Contact object using the persons phone number and select a carrier from the available options.
 
 CARRIERS is a dictionary loaded from a json file in the project that can be checked for available carriers that can be used for messaging.
