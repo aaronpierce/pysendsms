@@ -32,12 +32,12 @@ sms = pysendsms.SMS('<username>@gmail.com', '<app-password>')
 SMS object has various parameters allowing you to use some other SMTP providers of your choice.
 ```python
 sms = pysendsms.SMS(self,
-					username='<username>@gmail.com',
-					password= '<app-password>',
-					from_email=None,
-					server='smtp.gmail.com',
-					port=587,
-					tls=True)
+		username='<username>@gmail.com',
+		password= '<app-password>',
+		from_email=None,
+		server='smtp.gmail.com',
+		port=587,
+		tls=True)
 ```
 >Note: If using an SMTP API and you are given a username that is not an email address, you must provide the a verified from_email parameter otherwise outgoing mail with fail.
 
