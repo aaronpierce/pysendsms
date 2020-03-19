@@ -1,4 +1,4 @@
-<img width="200" alt="portfolio_view" src="https://github.com/aaronpierce/pysendsms/blob/master/resources/PySendSMS.png">  
+[Image]("https://github.com/aaronpierce/pysendsms/blob/master/resources/PySendSMS200x200.png")
 
 # PySendSMS
 
