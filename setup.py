@@ -3,7 +3,7 @@ from setuptools import setup
 readme = open('README.md').read()
 
 setup(name                              =       'pysendsms',
-      version                           =       '0.2.0',
+      version                           =       '0.2.1',
       description                       =       'Send SMS via Gmail SMTP servers.',
       long_description                  =        readme,
       long_description_content_type     =       'text/markdown',
